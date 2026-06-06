@@ -1,5 +1,5 @@
 {% set name = "wagtail-generic-chooser" %}
-{% set version = "0.8" %}
+{% set version = "0.8.0" %}
 
 package:
   name: wagtail-generic-chooser
