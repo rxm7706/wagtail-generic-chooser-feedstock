@@ -2,11 +2,11 @@
 {% set version = "0.8" %}
 
 package:
-  name: {{ name|lower }}
+  name: wagtail-generic-chooser
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/w/wagtail-generic-chooser/wagtail_generic_chooser-{{ version }}.tar.gz
   sha256: 2a8f8391021ff30b00bb2654402b9be1c60c3e4d6ab5c06b416431b31dda6545
 
 build:
